@@ -1,0 +1,22 @@
+.navbar{
+    background-color: #f8c537;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+    .btn{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar-button{
+        display: flex;
+    }
+    .navbar-login{
+        margin: 1rem;
+    }
+    
+   
+
+
+
+
