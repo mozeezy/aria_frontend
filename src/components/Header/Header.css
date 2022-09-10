@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+  .header-text {
+    padding: 1rem;
+  }
+
+  .cta-button {
+    padding-left: 1rem;
+  }
+}

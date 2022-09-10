@@ -5,18 +5,16 @@ export default function Navbar () {
 
 return (
  
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar">
   <div class="container-md">
     <a class="navbar-brand" href="#">ARIA</a>
   </div>
 
 <div class="navbar-button">
-<button type="button" class="btn btn-dark">Account</button>
-</div>
-
-<div class="navbar-login">
+<button type="button" class="btn btn-dark">New Account</button>
 <button type="button" class="btn btn-outline-dark">Login</button>
 </div>
+
 
   </nav>
 )
