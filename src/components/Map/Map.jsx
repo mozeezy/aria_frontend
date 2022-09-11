@@ -22,7 +22,7 @@ const Maps = () => {
 
   setMap(map)
   return () => map.remove()
-  }, [longitude, latitude])
+  }, [])
 
   return (
 
@@ -30,11 +30,10 @@ const Maps = () => {
       <div className="search-bar">
         <h1>Where to go?</h1>
         <input
-        type="text" id="longitude" className="longitude" placeholder="enter longitude" onChange={((e) => {setLongitude(e.target.value)})} />
+        type="text" id="longitude" className="longitude" placeholder="Enter Longitude" onChange={((e) => {setLongitude(e.target.value)})} />
         <input
-        type="text" id="latitude" className="latitude" placeholder="enter latitude" 
+        type="text" id="latitude" className="latitude" placeholder="Enter Latitude" 
         onChange={((e) => {setLatitude(e.target.value)})} />
-        <input/>
       </div>
     </div>
   )

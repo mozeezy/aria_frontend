@@ -1,16 +1,16 @@
 @media screen and (max-width: 600px) {
-  .navbar {
-    background-color: #f8c537;
-    padding: 1rem;
-  }
-  .container-md {
-    display: none;
-  }
-  .navbar-brand {
-    font-size: 30px;
-  }
-
-  .navbar-login {
-    margin: 1rem;
-  }
+ .navbar {
+   background: #EDB230;
+   width: max-content;
+   padding: 1rem 2rem;
+   z-index: 2;
+   position: fixed;
+   left: 50%;
+   transform: translateX(-50%);
+   bottom: 0.2rem;
+   display: flex;
+   gap: 1rem;
+   border-radius: 3rem;
+   backdrop-filter: blur(15px);
+ }
 }
