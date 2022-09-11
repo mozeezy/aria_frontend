@@ -1,14 +1,13 @@
-
 @media screen and (max-width: 600px) {
-    .footer-container{
-        background-color: #E77728;
-        
-    }
-    .text{
-        display: flex;
-        justify-content: center;
-       padding: 1rem;
-       font-size: 15px;
-       font-weight: bold;
-    }
-    }
+  .footer-container {
+    background-color: #e77728;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    margin: 1em;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
