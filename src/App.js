@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Map />
       <Model />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
