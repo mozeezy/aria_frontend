@@ -7,7 +7,7 @@
   .text {
     display: flex;
     justify-content: center;
-    padding: 4rem;
+    padding: 3rem;
     font-size: 20px;
     font-weight: bold;
   }
