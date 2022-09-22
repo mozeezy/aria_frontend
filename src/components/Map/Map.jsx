@@ -47,7 +47,7 @@ const Maps = () => {
     <>
     <div ref={mapElement} className="map">
       <div className="search-bar">
-        <h1>Where to go?</h1>
+        <h1>Where?</h1>
         <input
         type="text" 
         id="longitude" 
