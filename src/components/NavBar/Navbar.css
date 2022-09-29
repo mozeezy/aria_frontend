@@ -10,7 +10,7 @@
    bottom: 0.2rem;
    display: flex;
    gap: 1rem;
-   border-radius: 3rem;
+   border-radius: 2.8rem;
    backdrop-filter: blur(15px);
  }
 }
